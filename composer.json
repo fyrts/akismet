@@ -1,0 +1,27 @@
+{
+    "name": "fyrts/akismet",
+    "type": "library",
+    "description": "PHP library for implementing Akismet spam filtering",
+    "keywords": ["akismet", "api", "sdk", "spam"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.1",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "autoload": {
+        "psr-4": { "Akismet\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Akismet\\Tests\\": "tests/"}
+    },
+    "scripts": {
+        "test": "@php ./vendor/bin/phpunit --colors",
+        "test-coverage": "@php ./vendor/bin/phpunit --colors --coverage-html ./coverage"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
