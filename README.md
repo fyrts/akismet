@@ -1,6 +1,6 @@
 # Akismet
 
-PHP client for the [Akismet API](https://akismet.com/development/). Framework agnostic, but requires PHP 7. [Akismet
+PHP client for the [Akismet API](https://akismet.com/development/). [Akismet
 terms of use](https://akismet.com/tos/) apply to usage of this library.
 
 ## Installation
